@@ -1,0 +1,10 @@
+#message {
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-color: #aabbcc; /* Màu viền của TextField */
+    -fx-background-color: #ffffff;
+}
+
+#chatbox {
+    -fx-background-color: #d6f6f6;
+}

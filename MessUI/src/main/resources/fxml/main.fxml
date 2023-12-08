@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="527.0" prefWidth="339.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerMain">
+   <children>
+      <TextField id="message" layoutX="58.0" layoutY="467.0" prefHeight="34.0" prefWidth="222.0" promptText="Your message ... " stylesheets="@../css/style.css" />
+      <AnchorPane id="chatbox" layoutY="86.0" prefHeight="368.0" prefWidth="339.0" stylesheets="@../css/style.css">
+         <children>
+            <ImageView fitHeight="77.0" fitWidth="167.0" layoutX="170.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/mybuble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="77.0" fitWidth="167.0" layoutX="170.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/mybuble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="144.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/yourbuble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="70.0" fitWidth="144.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/yourbuble.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <ImageView fitHeight="34.0" fitWidth="37.0" layoutX="288.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/mic.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="37.0" layoutX="14.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/image.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="26.0" layoutX="247.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/send.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="14.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/back.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="49.0" layoutX="48.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/avatar.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="116.0" layoutY="16.0" prefHeight="22.0" prefWidth="66.0" text="Guest">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Circle fill="#93ff1f" layoutX="114.0" layoutY="56.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="129.0" layoutY="46.0" text="Online">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="34.0" fitWidth="34.0" layoutX="280.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/vidcall.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="230.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/call.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
